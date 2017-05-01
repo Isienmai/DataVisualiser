@@ -1,0 +1,208 @@
+﻿Build started 15/01/2015 19:26:58.
+     1>Project "F:\Documents\1---HEYMRTVMANLOOKIEHERE---1\Work\UNI\year2\G1\OGLDataVisualiser\Source\Win32OGLDataVisualiser\Win32OGLDataVisualiser.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Content.cpp ControlWindowContents.cpp Data.cpp FileInterface.cpp GLFont.cpp GraphicsBarGraph.cpp GraphicsBase.cpp GraphicsLineGraph.cpp GraphicsPieChart.cpp GraphicsScatterPlot2D.cpp GraphicsScatterPlot3D.cpp GraphicsSpiderChart.cpp GUIText.cpp Main.cpp Win32Container.cpp
+         Content.cpp
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(64): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(65): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>Content.cpp(121): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         ControlWindowContents.cpp
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(64): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(65): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>ControlWindowContents.cpp(65): warning C4018: '<' : signed/unsigned mismatch
+     1>ControlWindowContents.cpp(91): warning C4018: '<' : signed/unsigned mismatch
+     1>ControlWindowContents.cpp(117): warning C4018: '<' : signed/unsigned mismatch
+     1>ControlWindowContents.cpp(143): warning C4018: '<' : signed/unsigned mismatch
+     1>ControlWindowContents.cpp(169): warning C4018: '<' : signed/unsigned mismatch
+     1>ControlWindowContents.cpp(195): warning C4018: '<' : signed/unsigned mismatch
+     1>ControlWindowContents.cpp(366): warning C4018: '<' : signed/unsigned mismatch
+     1>ControlWindowContents.cpp(379): warning C4018: '<' : signed/unsigned mismatch
+     1>ControlWindowContents.cpp(390): warning C4018: '<' : signed/unsigned mismatch
+     1>ControlWindowContents.cpp(408): warning C4018: '<' : signed/unsigned mismatch
+     1>ControlWindowContents.cpp(421): warning C4018: '<' : signed/unsigned mismatch
+         Data.cpp
+     1>Data.cpp(36): warning C4018: '<' : signed/unsigned mismatch
+     1>Data.cpp(133): warning C4018: '<' : signed/unsigned mismatch
+     1>Data.cpp(186): warning C4018: '<' : signed/unsigned mismatch
+         FileInterface.cpp
+     1>FileInterface.cpp(68): warning C4018: '<' : signed/unsigned mismatch
+     1>FileInterface.cpp(119): warning C4018: '<' : signed/unsigned mismatch
+         GLFont.cpp
+     1>GLFont.cpp(43): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>GLFont.cpp(187): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>GLFont.cpp(189): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>GLFont.cpp(191): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>GLFont.cpp(194): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+         GraphicsBarGraph.cpp
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(64): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(65): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsBarGraph.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsBarGraph.cpp(48): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsBarGraph.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsBarGraph.cpp(63): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsBarGraph.cpp(75): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>GraphicsBarGraph.cpp(76): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>GraphicsBarGraph.cpp(83): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsBarGraph.cpp(107): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsBarGraph.cpp(110): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsBarGraph.cpp(114): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsBarGraph.cpp(117): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsBarGraph.cpp(150): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsBarGraph.cpp(151): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsBarGraph.cpp(154): warning C4018: '<' : signed/unsigned mismatch
+         GraphicsBase.cpp
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(64): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(65): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsBase.cpp(11): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>GraphicsBase.cpp(12): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>GraphicsBase.cpp(14): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>GraphicsBase.cpp(29): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>GraphicsBase.cpp(30): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>GraphicsBase.cpp(112): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>GraphicsBase.cpp(113): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>GraphicsBase.cpp(172): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsBase.cpp(173): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsBase.cpp(179): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>GraphicsBase.cpp(180): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>GraphicsBase.cpp(182): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>GraphicsBase.cpp(183): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>GraphicsBase.cpp(258): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         GraphicsLineGraph.cpp
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(64): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(65): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsLineGraph.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsLineGraph.cpp(24): warning C4101: 'segmentHeight' : unreferenced local variable
+     1>GraphicsLineGraph.cpp(24): warning C4101: 'segmentWidth' : unreferenced local variable
+     1>GraphicsLineGraph.cpp(65): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsLineGraph.cpp(66): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsLineGraph.cpp(67): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsLineGraph.cpp(68): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsLineGraph.cpp(69): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsLineGraph.cpp(126): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsLineGraph.cpp(169): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsLineGraph.cpp(218): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsLineGraph.cpp(258): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsLineGraph.cpp(259): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         GraphicsPieChart.cpp
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(64): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(65): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsPieChart.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsPieChart.cpp(52): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsPieChart.cpp(87): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsPieChart.cpp(92): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsPieChart.cpp(97): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsPieChart.cpp(98): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsPieChart.cpp(137): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsPieChart.cpp(141): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsPieChart.cpp(142): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsPieChart.cpp(159): warning C4018: '<' : signed/unsigned mismatch
+         GraphicsScatterPlot2D.cpp
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(64): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(65): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsScatterPlot2D.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot2D.cpp(66): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot2D.cpp(81): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot2D.cpp(105): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot2D.cpp(115): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot2D.cpp(125): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot2D.cpp(157): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot2D.cpp(183): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsScatterPlot2D.cpp(184): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsScatterPlot2D.cpp(185): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsScatterPlot2D.cpp(186): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsScatterPlot2D.cpp(187): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsScatterPlot2D.cpp(242): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot2D.cpp(247): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>GraphicsScatterPlot2D.cpp(248): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>GraphicsScatterPlot2D.cpp(261): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot2D.cpp(266): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>GraphicsScatterPlot2D.cpp(267): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         GraphicsScatterPlot3D.cpp
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(64): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(65): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsScatterPlot3D.cpp(12): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsScatterPlot3D.cpp(47): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot3D.cpp(92): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot3D.cpp(104): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot3D.cpp(116): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot3D.cpp(141): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot3D.cpp(151): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot3D.cpp(161): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot3D.cpp(171): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot3D.cpp(201): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot3D.cpp(211): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot3D.cpp(221): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot3D.cpp(244): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot3D.cpp(264): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot3D.cpp(281): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsScatterPlot3D.cpp(282): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsScatterPlot3D.cpp(283): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsScatterPlot3D.cpp(286): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsScatterPlot3D.cpp(287): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsScatterPlot3D.cpp(288): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsScatterPlot3D.cpp(295): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>GraphicsScatterPlot3D.cpp(414): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsScatterPlot3D.cpp(415): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsScatterPlot3D.cpp(416): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsScatterPlot3D.cpp(422): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsScatterPlot3D.cpp(424): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsScatterPlot3D.cpp(425): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsScatterPlot3D.cpp(426): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsScatterPlot3D.cpp(474): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsScatterPlot3D.cpp(520): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         GraphicsSpiderChart.cpp
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(64): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(65): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsSpiderChart.cpp(32): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsSpiderChart.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsSpiderChart.cpp(67): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsSpiderChart.cpp(71): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsSpiderChart.cpp(75): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsSpiderChart.cpp(85): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsSpiderChart.cpp(101): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GraphicsSpiderChart.cpp(109): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsSpiderChart.cpp(110): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsSpiderChart.cpp(152): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsSpiderChart.cpp(153): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>GraphicsSpiderChart.cpp(157): warning C4018: '<' : signed/unsigned mismatch
+     1>GraphicsSpiderChart.cpp(161): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>GraphicsSpiderChart.cpp(161): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>GraphicsSpiderChart.cpp(234): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+         GUIText.cpp
+     1>GUIText.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+     1>GUIText.cpp(67): warning C4018: '<' : signed/unsigned mismatch
+         Main.cpp
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(64): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(65): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+         Win32Container.cpp
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(64): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>f:\documents\1---heymrtvmanlookiehere---1\work\uni\year2\g1\ogldatavisualiser\source\win32ogldatavisualiser\GraphicsBase.h(65): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>Win32Container.cpp(233): warning C4101: 'winZ' : unreferenced local variable
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\Menu.res" Menu.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Documents\1---HEYMRTVMANLOOKIEHERE---1\Work\UNI\year2\G1\OGLDataVisualiser\Source\Release\Win32OGLDataVisualiser.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Documents\1---HEYMRTVMANLOOKIEHERE---1\Work\UNI\year2\G1\OGLDataVisualiser\Source\Release\Win32OGLDataVisualiser.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Documents\1---HEYMRTVMANLOOKIEHERE---1\Work\UNI\year2\G1\OGLDataVisualiser\Source\Release\Win32OGLDataVisualiser.lib" /MACHINE:X86 /SAFESEH Release\Menu.res
+         Release\Content.obj
+         Release\ControlWindowContents.obj
+         Release\Data.obj
+         Release\FileInterface.obj
+         Release\GLFont.obj
+         Release\GraphicsBarGraph.obj
+         Release\GraphicsBase.obj
+         Release\GraphicsLineGraph.obj
+         Release\GraphicsPieChart.obj
+         Release\GraphicsScatterPlot2D.obj
+         Release\GraphicsScatterPlot3D.obj
+         Release\GraphicsSpiderChart.obj
+         Release\GUIText.obj
+         Release\Main.obj
+         Release\Win32Container.obj
+         Generating code
+         Finished generating code
+         Win32OGLDataVisualiser.vcxproj -> F:\Documents\1---HEYMRTVMANLOOKIEHERE---1\Work\UNI\year2\G1\OGLDataVisualiser\Source\Release\Win32OGLDataVisualiser.exe
+     1>Done Building Project "F:\Documents\1---HEYMRTVMANLOOKIEHERE---1\Work\UNI\year2\G1\OGLDataVisualiser\Source\Win32OGLDataVisualiser\Win32OGLDataVisualiser.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.58

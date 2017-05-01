@@ -1,0 +1,11 @@
+
+#include "Menu.h"
+
+ID_MENU MENU DISCARDABLE
+{
+	POPUP "File"
+	{
+		MENUITEM "Load", ID_LOAD_FILE
+		MENUITEM "Exit", ID_EXIT
+	}
+}
